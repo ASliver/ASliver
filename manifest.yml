@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ASliver
+  host: ASliver
+  disk_quota: 1024M
+  services:
+  - ASliver-cloudantNoSQLDB
+  - ASliver-iotf-service
